@@ -1,4 +1,3 @@
-/* Estilos Globais */
 body {
     font-family: Arial, sans-serif;
     background-color: #D6E4F0;
@@ -11,7 +10,6 @@ header {
     text-align: center;
     background-color: #D6E4F0;
     padding: 20px;
-    position: relative;
 }
 
 header img {
@@ -19,84 +17,79 @@ header img {
     height: auto;
 }
 
-.slogan {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
+header h1 {
     font-size: 24px;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.nav-icons {
+    margin-top: 10px;
+}
+
+.nav-icons button {
+    background-color: #354ba2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-/* Seção Perfil */
-.perfil {
-    text-align: center;
+main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.perfil-info img {
+.perfil img {
     border-radius: 50%;
     width: 100px;
     height: 100px;
     margin-bottom: 20px;
 }
 
-/* Menu Principal */
-.menu-principal {
-    padding: 20px;
-}
-
-.grid-menu {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin: 20px 0;
+.menu {
+    width: 100%;
 }
 
 .menu-item {
     background-color: #4f6fc4;
     color: white;
     padding: 20px;
+    margin: 10px 0;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    transition: background-color 0.3s;
-}
-
-.menu-item:hover {
-    background-color: #354ba2;
 }
 
 .menu-item img {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
 }
 
-.menu-item h3 {
-    margin: 10px 0;
-}
-
-/* Seção Refeitório */
 .refeitorio {
-    text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
-.menu-semana img {
-    width: 100%;
-    max-width: 500px;
+.menu-semana ul {
+    list-style: none;
+    padding: 0;
+    background-color: #D6E4F0;
     border-radius: 10px;
+    padding: 10px;
+}
+
+.menu-semana li {
+    padding: 10px 0;
 }
 
 .internet {
     margin-top: 20px;
+    text-align: center;
 }
 
 .internet img {
@@ -113,12 +106,4 @@ header img {
     margin-top: 10px;
     border-radius: 5px;
     cursor: pointer;
-}
-
-/* Rodapé */
-footer {
-    background-color: #D6E4F0;
-    padding: 10px;
-    text-align: center;
-    color: #333;
 }
