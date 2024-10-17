@@ -1,88 +1,109 @@
-/* Estilos gerais */
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    color: #333;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    }
-    /* Estilos da barra de navegação */
-    .navbar {
+}
+
+header {
+    text-align: center;
+    background-color: #dfe9ff;
+    padding: 20px;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.nav-icons {
+    margin-top: 10px;
+}
+
+.nav-icons button {
+    background-color: #354ba2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu-item {
+    background-color: #4f6fc4;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
-    padding: 10px 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    /* Logo */
-    .logo img {
+}
+
+.menu-item img {
+    width: 50px;
     height: 50px;
-    }
-    /* Menu */
-    .menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-    }
-    .menu li {
-    position: relative;
-    }
-    .menu a {
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
-    padding: 10px 15px;
-    transition: background-color 0.3s, color 0.3s;
-    }
-    /* Cor ao passar o mouse e ao clicar */
-    .menu a:hover {
-    background-color: lightblue;
-    color: white;
-    
-    }
-    .menu a:active {
-    background-color: darkblue;
-    color: white;
-    }
-    /* Dropdown */
-    .dropdown-content {
-    display: none;
-    position: absolute;
-    top: 40px;
-    left: 0;
-    background-color: rgb(193, 193, 215);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.refeitorio {
+    margin-top: 20px;
+}
+
+.menu-semana ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-    }
-    .dropdown-content li {
-    width: 200px;
-    }
-    .dropdown-content li a {
-    display: block;
+    background-color: #dfe9ff;
+    border-radius: 10px;
     padding: 10px;
-    color: blue;
-    text-decoration: none;
-    }
-    .dropdown-content li a:hover {
-    background-color: lightblue;
+}
+
+.menu-semana li {
+    padding: 10px 0;
+}
+
+.internet {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.internet img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.internet button {
+    background-color: #354ba2;
     color: white;
-    }
-    .dropdown:hover .dropdown-content {
-    display: block;
-    }
-    /* Links das redes sociais */
-    .social-links {
-    display: flex;
-    gap: 10px;
-    }
-    .social-links img {
-    height: 30px;
-    transition: transform 0.3s;
-    
-    }
-    .social-links img:hover {
-    transform: scale(1.1);
-    }
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
