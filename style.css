@@ -33,7 +33,7 @@ header h1 {
 }
 
 .nav-icons button {
-    background-color: #ffffff;
+    background-color: #354ba2;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -64,7 +64,7 @@ body {
 }
 
 .menu-item {
-    background-color: #000000;
+    background-color: #1E56A0;
     color: white;
     padding: 20px;
     margin: 10px 0;
@@ -86,7 +86,7 @@ body {
 .menu-semana ul {
     list-style: none;
     padding: 0;
-    background-color: #a01e1e;
+    background-color: #1E56A0;
     border-radius: 10px;
     padding: 10px;
 }
