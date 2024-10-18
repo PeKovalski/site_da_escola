@@ -60,11 +60,11 @@ main {
     width: 100%;
 }
 body {
-    background-color: #a1c8fa /* Substitua #yourColorCode pela cor desejada */
+    background-color: #ffffff /* Substitua #yourColorCode pela cor desejada */
 }
 
 .menu-item {
-    background-color: #1E56A0;
+    background-color: #000000;
     color: white;
     padding: 20px;
     margin: 10px 0;
