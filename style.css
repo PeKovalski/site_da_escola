@@ -59,6 +59,9 @@ main {
 .menu {
     width: 100%;
 }
+body {
+    background-color: #D6E4F0 /* Substitua #yourColorCode pela cor desejada */
+}
 
 .menu-item {
     background-color: #D6E4F0;
