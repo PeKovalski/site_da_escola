@@ -1,5 +1,5 @@
 
-}order: none;
+order: none;
     padding: 15px;
     cursor: pointer;
     b
@@ -84,6 +84,14 @@ body {
 }
 
 .menu-semana ul {
+    list-style: none;
+    padding: 0;
+    background-color: #1E56A0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.biblioteca ul {
     list-style: none;
     padding: 0;
     background-color: #1E56A0;
